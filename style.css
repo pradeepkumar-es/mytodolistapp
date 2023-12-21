@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  h1{
+    color: black;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  .add-btn{
+    color: #fff;
+    background-color: green;
+  }
+  .add-btn:hover{
+    background-color: rgb(37, 212, 21);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  .edit-btn{
+    background-color: rgb(179, 255, 0);
+    color:rgb(0, 0, 0);
+  }
+  .edit-btn:hover{
+    background-color: yellow;
+  }
+  .delete-btn{
+    background-color: rgb(179, 21, 21);
+    color: #fff;
+  }
+  .delete-btn:hover{
+    background-color: rgb(255, 4, 4);
+  }
+  .add-btn, .edit-btn , .delete-btn {
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 3px 20px;
+  }
+  
